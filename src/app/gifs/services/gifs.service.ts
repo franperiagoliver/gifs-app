@@ -11,7 +11,6 @@ export class GifsService {
   private servicioUrl: string = 'https://api.giphy.com/v1/gifs';
   private _historial: string[] = [];
 
-  // TODO: Cambiar any por su tipo correspondiente
   public resultados: Gif[] = [];
 
   get historial() {
